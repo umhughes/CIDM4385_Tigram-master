@@ -1,0 +1,159 @@
+
+".container": {
+  backgroundColor : "white"
+}
+
+"#friendsWindow": {
+	layout : "vertical"
+},
+
+"#filterContainer": {
+	top : "5dp",
+	height : Ti.UI.SIZE,
+	width : "70%"
+},
+
+"#androidPickerContainer": {
+	height : Titanium.UI.SIZE,
+	width : Ti.UI.SIZE,
+	backgroundColor : 'gray'
+},
+
+"#filter[platform=ios]": {
+	style : Ti.UI.iPhone.SystemButtonStyle.BAR,
+	height : 30,
+	width : "86%"
+},
+
+"#filter[platform=android]": {
+	height : "38dp",
+	width : "70%",
+	selctionIndicator : true
+},
+
+"#listView": {
+	background : "white",
+	separatorColor : '#CCC',
+	width : Titanium.UI.FILL,
+	height : Titanium.UI.FILL
+},
+
+"#userAvatar": {
+	width : "36dp",
+	height : "36dp",
+},
+
+"#userName": {
+	left : "8dp",
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	font : {
+		fontSize : '15dp'
+	}
+},
+
+"#userView": {
+	top : "2dp",
+	left : "4dp",
+	background : "white",
+	width : Titanium.UI.FILL,
+	height : Titanium.UI.FILL,
+	layout : "horizontal"
+},
+
+".actionBtn[platform=android]": {
+	right : "8dp",
+	width : "90dp",
+	height : "34dp",
+	font: {
+		fontSize: '14dp'
+	}
+},
+
+".actionBtn[platform-ios]": {
+	right: "8dp",
+	width: "90dp",
+	height: "26dp",
+	font: {
+		fontSize: '14dp'
+	}
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
